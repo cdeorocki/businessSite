@@ -3,8 +3,8 @@
 	<head>
 		<title>About Pawswell</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 
 
@@ -14,15 +14,15 @@
 			background-image: url("img/banner.png");
 			width: 960px;
 			height:234px;
-
+			margin: 0 auto;
 			
 			
 		}
-/*
-		* {
-			border: 1px solid black;
-		}*/
 
+		/** {
+			border: 1px solid black;
+		}
+*/
 		#number {
 			float: left;
 		}
@@ -31,14 +31,94 @@
 			float: right;
 		}
 
-		ul {
+		.social {
 			list-style-type: none;
+			float: right;
+			margin-top: 10px;
 		}
 
-		li {
+		.icon {
 			display: inline;
+			margin: 5px 10px;
 		}
 
+		.img-responsive {
+			margin: 0 auto;
+		}
+
+		#footer {
+			border-top: 1px dashed black;
+			padding-top: 20px;
+		}
+
+		.copy {
+			text-align: center;
+			margin-top: 40px;
+		}
+
+		#redcrosslogo {
+			margin-top: 40px;
+		}
+
+		#aspselogo {
+			margin-top: 30px;
+		}
+
+		#qualLogos {
+			margin-top: 40px;
+		}
+
+		#navBar {
+			
+			border-top: 1px dashed black;
+			border-bottom: 1px dashed black;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width:800px;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+
+		.links {
+			list-style-type: none;
+			width: 600px;
+			margin: 0 auto;
+
+		}
+
+		.links li {
+			display: inline;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 20px;
+			border-right: 1px solid black;
+			padding-right: 20px;
+			padding-left: 5px;
+			margin-right: 10px;
+			margin-left: 10px;
+			
+		}
+
+		a {
+			color: #DB4845;
+		}
+
+		a:hover {
+			color: #DB4845;
+			text-decoration: none;
+		}
+
+		#lastLink {
+			border-right: none;
+		}
+
+		.contentArea {
+			border: 2px solid #DB4845;
+		}
+
+	
 
 
 
@@ -47,22 +127,61 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12" id="banner"></div>
+				<div id="banner"></div>
 			</div>
-		</div>
-		<div class="container" id="footer">
 			<div class="row">
+				<div id="navBar">
+					<ul class="links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li id="lastLink"><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 contentArea">
+					<div class="row">
+						<div cl
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		
+
+
+
+
+		<!-- Begin Footer -->
+
+		<div class="container">
+			<div class="row" id="footer">
 				<div class="col-md-6" id="number">
 					<h3>Call Me: (978) 905 0321</h3>
 				</div>
 				<div class="col-md-6" id="socialBar"></div>
-				<ul>
-					<li><a href="https://www.facebook.com" target="_blank"><img class="icon1" src="img/yelp.png" height="64" width="64"></a></li>
-					<li><a href="https://twitter.com/?lang=en" target="_blank"><img class="icon2" src="img/fb.png" height="64" width="64"></a></li>
-					<li><a href="https://www.pinterest.com/" target="_blank"><img class="icon3" src="img/pinterest.png" height="64" width="64"></a></li>
-					<li><a href="https://www.linkedin.com/" target="_blank"><img class="icon5" src="img/instagram.png" height="64" width="64"></a></li>
+				<ul class="social">
+					<li class="icon"><a href="https://www.facebook.com" target="_blank"><img class="icon1" src="img/yelp.png" height="40" width="40"></a></li>
+					<li class="icon"><a href="https://twitter.com/?lang=en" target="_blank"><img class="icon2" src="img/fb.png" height="40" width="40"></a></li>
+					<li class="icon"><a href="https://www.pinterest.com/" target="_blank"><img class="icon3" src="img/pinterest.png" height="40" width="40"></a></li>
+					<li class="icon"><a href="https://www.linkedin.com/" target="_blank"><img class="icon5" src="img/instagram.png" height="40" width="40"></a></li>
 				</ul>
 			</div>
+			<div class="row" id="qualLogos">
+				<div class="col-md-4">
+					<img class="img-responsive" src="img/petsitter.jpg">
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" id="redcrosslogo" src="img/redcross.jpg">
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" id="aspselogo" src="img/aspse.jpg">
+				</div>
+			</div>
+			<div class="row"><p class="copy">&copy; 2014 by PawsWell Walking Co.</p></div>
 		</div>
 	</body>
 
