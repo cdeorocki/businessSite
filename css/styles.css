@@ -38,5 +38,132 @@
 }
 
 p {
-	font-family: 'geotica_threeregular';
+	font-family: 'museo_slab500';
 }
+
+    #banner {
+            background-image: url("../img/banner.png");
+            width: 960px;
+            height:234px;
+            margin: 0 auto; 
+        }
+
+        #bannernumber {
+            float: right;
+            color: #DB4845;
+            font-size: 16pt;
+            font-family: 'geotica_threeregular', serif;
+        }
+
+        /** {
+            border: 1px solid black;
+        }
+*/
+
+        #socialBar {
+            float: right;
+        }
+
+        .social {
+            list-style-type: none;
+            float: right;
+            margin-top: 5px;
+        }
+
+        .icon {
+            display: inline;
+            margin: 5px 10px;
+        }
+
+        .img-responsive {
+            margin: 0 auto;
+        }
+
+        #footer {
+            border-top: 1px dashed black;
+            padding-top: 20px;
+        }
+
+        #footernumber {
+            float: left;
+            color: #3d9b94;
+            font-size: 22pt;
+            font-family: 'geotica_threeregular', serif;
+        }
+
+        .copy {
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'museo_slab500', serif;
+            font-size: 8pt;
+        }
+
+        #redcrosslogo {
+            margin-top: 40px;
+        }
+
+        #aspselogo {
+            margin-top: 30px;
+        }
+
+        #qualLogos {
+            margin-top: 40px;
+        }
+
+        #navBar {
+            
+            border-top: 1px dashed #A1A1A1;
+            border-bottom: 1px dashed #A1A1A1;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width:840px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .links {
+            list-style-type: none;
+            width: 925px;
+            margin: 0 auto;
+
+        }
+
+        .links li {
+            display: inline;
+            font-family: 'museo_slab500', serif;
+            font-size: 15px;
+            border-right: 1px solid #f8bbb2;
+            padding-right: 20px;
+            padding-left: 5px;
+            margin-right: 10px;
+            margin-left: 7px;
+            
+        }
+
+        .activePage {
+            color: #93cb8a;
+        }
+
+        a {
+            color: #DB4845;
+        }
+
+        a:hover {
+            color: #f8bbb2;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #93cb8a;
+            text-decoration: none;
+        }
+
+        #lastLink {
+            border-right: none;
+        }
+
+        .contentArea {
+            border: 2px solid #DB4845;
+        }
